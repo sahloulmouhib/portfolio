@@ -40,10 +40,12 @@ const About = (props: Props) => {
             </article>
           </div>
           <p>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nulla,
-            ratione ad ducimus fuga harum iure culpa cum voluptates ipsam
-            cumque. Ut modi ab distinctio ipsum harum, dolorum voluptatibus
-            velit ex.
+            I am Mouhib Sahloul, I am a software engineer, freshly graduated,
+            and I am highly motivated to develop my skills and evolve
+            professionally constantly. I am confident in my ability to come up
+            with interesting ideas. I am passionate about programming and
+            design. I also have experience working in a collaborative
+            environment and presenting status updates to project stakeholders.
           </p>
 
           <a href="#contact" className="btn btn-primary">

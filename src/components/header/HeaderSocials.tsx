@@ -8,10 +8,18 @@ type Props = {};
 const HeaderSocials = (props: Props) => {
   return (
     <div className="header__socials">
-      <a href="https.//linkedin.com" target="_blank">
+      <a
+        href="https://www.linkedin.com/in/mouhib-sahloul-249842199/"
+        target="_blank"
+        rel="noreferrer"
+      >
         <BsLinkedin />
       </a>
-      <a href="https.//github.com" target="_blank">
+      <a
+        href="https://github.com/sahloulmouhib"
+        target="_blank"
+        rel="noreferrer"
+      >
         <FaGithub />
       </a>
       <a href="https.//dribble.com" target="_blank">

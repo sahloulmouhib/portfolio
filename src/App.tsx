@@ -9,7 +9,7 @@ import Header from "./components/header/Header";
 import Nav from "./components/nav/Nav";
 import Portfolio from "./components/portfolio/Portfolio";
 import Services from "./components/services/Services";
-import Testemonial from "./components/testemonials/Testemonial";
+import Testemonial from "./components/testemonials/Testimonial";
 
 function App() {
   return (
