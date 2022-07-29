@@ -22,9 +22,9 @@ const HeaderSocials = (props: Props) => {
       >
         <FaGithub />
       </a>
-      <a href="https.//dribble.com" target="_blank">
+      {/* <a href="https.//dribble.com" target="_blank">
         <FiDribbble />
-      </a>
+      </a> */}
     </div>
   );
 };
