@@ -3,6 +3,7 @@ import "./footer.css";
 import { FaFacebookF } from "react-icons/fa";
 import { FiInstagram } from "react-icons/fi";
 import { IoLogoTwitter } from "react-icons/io";
+import { BsGithub, BsLinkedin } from "react-icons/bs";
 
 type Props = {};
 
@@ -43,6 +44,21 @@ const Footer = (props: Props) => {
         </li>
       </ul>
       <div className="footer__socials">
+        <a
+          href="https://www.linkedin.com/in/mouhib-sahloul-249842199/"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <BsLinkedin />
+        </a>
+        <a
+          href="https://github.com/sahloulmouhib"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <BsGithub />
+        </a>
+
         <a
           href="https://www.facebook.com/mouhib.m.sahloul/"
           target="_blank"
