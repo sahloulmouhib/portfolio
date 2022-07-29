@@ -5,11 +5,39 @@ import { RiMessengerLine } from "react-icons/ri";
 import React, { useRef } from "react";
 import emailjs from "emailjs-com";
 
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
+
 type Props = {};
 
 const Contact = (props: Props) => {
   const form: any = useRef();
 
+  const successMessage = () =>
+    toast("Message sent successfully", {
+      position: "bottom-right",
+      autoClose: 3000,
+      hideProgressBar: false,
+      closeOnClick: true,
+      pauseOnHover: true,
+      draggable: true,
+      progress: undefined,
+      theme: "dark",
+      type: "success",
+    });
+
+  const errorMessage = () =>
+    toast("Something went wrong", {
+      position: "bottom-right",
+      autoClose: 3000,
+      hideProgressBar: false,
+      closeOnClick: true,
+      pauseOnHover: true,
+      draggable: true,
+      progress: undefined,
+      theme: "dark",
+      type: "error",
+    });
   const sendEmail = (e: any) => {
     e.preventDefault();
     emailjs
@@ -22,10 +50,12 @@ const Contact = (props: Props) => {
       .then(
         (result: any) => {
           console.log("sucess");
+          successMessage();
           e.target.reset();
         },
         (error: any) => {
           console.log(error.text);
+          errorMessage();
         }
       );
   };
@@ -53,7 +83,7 @@ const Contact = (props: Props) => {
             <h4>Messenger</h4>
             <h5>Mouhib Sahloul</h5>
             <a
-              href="https://www.facebook.com/mouhib.m.sahloul/"
+              href="https://m.me/mouhib.m.sahloul/"
               target="_blank"
               rel="noreferrer"
             >
@@ -66,7 +96,7 @@ const Contact = (props: Props) => {
             <h4>Whatsapp</h4>
             <h5>+216 29 043 712</h5>
             <a
-              href="mailto:mouhibsahloul@hotmail.com"
+              href="https://api.whatsapp.com/send?phone=21629043712"
               target="_blank"
               rel="noreferrer"
             >

@@ -10,7 +10,7 @@ const Footer = (props: Props) => {
   return (
     <footer>
       <a href="#" className="footer__logo">
-        Mouhib
+        Mouhib Sahloul
       </a>
 
       <ul className="permalinks">
@@ -43,19 +43,27 @@ const Footer = (props: Props) => {
         </li>
       </ul>
       <div className="footer__socials">
-        <a href="https://facebook.com">
+        <a
+          href="https://www.facebook.com/mouhib.m.sahloul/"
+          target="_blank"
+          rel="noreferrer"
+        >
           <FaFacebookF />
         </a>
-        <a href="https://instagram.com">
+        <a
+          href="https://www.instagram.com/sahloulmouhib/"
+          target="_blank"
+          rel="noreferrer"
+        >
           <FiInstagram />
         </a>
-        <a href="https://twitter.com">
+        <a href="https://twitter.com" target="_blank" rel="noreferrer">
           <IoLogoTwitter />
         </a>
       </div>
 
       <div className="footer__copyright">
-        <small>&copy; Mouhib Sahloul Potfolio. All rights reserved</small>
+        <small>&copy; Mouhib Sahloul Potfolio. All rights reserved 2022</small>
       </div>
     </footer>
   );

@@ -1,4 +1,5 @@
 import React from "react";
+import { ToastContainer } from "react-toastify";
 
 import "./App.css";
 import About from "./components/about/About";
@@ -23,6 +24,7 @@ function App() {
       <Testemonial />
       <Contact />
       <Footer />
+      <ToastContainer />
     </>
   );
 }

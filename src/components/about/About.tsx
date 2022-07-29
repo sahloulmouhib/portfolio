@@ -1,8 +1,8 @@
 import React from "react";
 import "./about.css";
 import ME from "../../assets/me-about.jpg";
-import { FaAward } from "react-icons/fa";
-import { FiUsers } from "react-icons/fi";
+import ME2 from "../../assets/laptop-wave.png";
+import { FaAward, FaGraduationCap } from "react-icons/fa";
 import { VscFolderLibrary } from "react-icons/vsc";
 
 type Props = {};
@@ -15,7 +15,7 @@ const About = (props: Props) => {
       <div className="container about__container">
         <div className="about__me">
           <div className="about__me-image">
-            <img src={ME} alt="About  Image" />
+            <img src={ME2} alt="About  Image" />
           </div>
         </div>
 
@@ -24,19 +24,19 @@ const About = (props: Props) => {
             <article className="about__card">
               <FaAward className="about__icon" />
               <h5>Experience</h5>
-              <small>3+ Years Working</small>
+              <small>6+ Years in progamming</small>
             </article>
 
             <article className="about__card">
-              <FiUsers className="about__icon" />
-              <h5>Clients</h5>
-              <small>200+ clients world wide</small>
+              <FaGraduationCap className="about__icon" />
+              <h5>Education</h5>
+              <small>Software engineer</small>
             </article>
 
             <article className="about__card">
               <VscFolderLibrary className="about__icon" />
               <h5>Projects</h5>
-              <small>80+ Completed projects</small>
+              <small>10+ Completed projects</small>
             </article>
           </div>
           <p>

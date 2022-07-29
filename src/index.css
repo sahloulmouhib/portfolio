@@ -23,6 +23,21 @@
   --container-width-sm: 90%;
 }
 
+/* :root {
+  --color-bg: #fff;
+  --color-bg-variant: rgba(189, 185, 185, 0.4);
+  --color-primary: #020202;
+  --color-primary-variant: rgba(77, 181, 255, 0.4);
+  --color-white: #1f1f38;
+  --color-light: rgba(255, 255, 255, 0.6);
+
+  --transition: all 400ms ease;
+
+  --container-width-lg: 75%;
+  --container-width-md: 86%;
+  --container-width-sm: 90%;
+} */
+
 html {
   scroll-behavior: smooth;
 }

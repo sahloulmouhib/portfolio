@@ -1,0 +1,27 @@
+
+
+Implementation of new and further development of existing apps
+Consultation with the customer and the development team
+Keeping up to date with the terminology, concepts and best practices for coding mobile apps
+Designing, installing and testing a website's user interface elements
+Optimizing the user experience.
+
+Managing software workflow.
+Fixing bugs and testing for usability.
+
+
+
+
+Developing application programming interfaces (APIs) to support mobile functionality
+Conceptualizing and implementing solutions for data storage
+Building security structures
+Imeplemeting Security settings and hack prevents
+Cloud computing integration
+Streamlining and optimizing for loading speed
+
+Gathering and evaluate user requirements in collaboration with product managers and engineers
+Illustrating design ideas using storyboards, process flows and sitemaps
+Designing graphic user interface elements, like menus, tabs and widgets
+Developing UI mockups and prototypes that clearly illustrate how sites function and look like
+Identify and troubleshoot UX problems (e.g. responsiveness)
+Adhere to style standards on fonts, colors and images

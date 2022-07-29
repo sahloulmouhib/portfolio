@@ -21,30 +21,30 @@ const data = [
   {
     id: 1,
     avatar: AVTR1,
-    name: "mouhib",
+    name: "Mouhib",
     review:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos sapiente voluptatum maxime a atque quae quia optio eos modi nobis ducimus in unde natus cupiditate fugit ratione quod assumenda sitLorem ipsum dolor sit amet consectetur adipisicing elit. Quos sapiente voluptatum maxime a atque quae quia optio eos modi nobis ducimus in unde natus cupiditate fugit ratione quod assumenda sit",
   },
   {
     id: 2,
     avatar: AVTR2,
-    name: "mouhib",
+    name: "Mouhib",
     review:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos sapiente voluptatum maxime a atque quae quia optio eos modi nobis ducimus in unde natus cupiditate fugit ratione quod assumenda sit",
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos sapiente voluptatum maxime a atque quae quia optio eos modi nobis ducimus in unde natus cupiditate fugit ratione quod assumenda sitLorem ipsum dolor sit amet consectetur adipisicing elit. Quos sapiente voluptatum maxime a atque quae quia optio eos modi nobis ducimus in unde natus cupiditate fugit ratione quod assumenda sit",
   },
   {
-    id: 2,
+    id: 3,
     avatar: AVTR3,
-    name: "mouhib",
+    name: "Mouhib",
     review:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos sapiente voluptatum maxime a atque quae quia optio eos modi nobis ducimus in unde natus cupiditate fugit ratione quod assumenda sit",
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos sapiente voluptatum maxime a atque quae quia optio eos modi nobis ducimus in unde natus cupiditate fugit ratione quod assumenda sitLorem ipsum dolor sit amet consectetur adipisicing elit. Quos sapiente voluptatum maxime a atque quae quia optio eos modi nobis ducimus in unde natus cupiditate fugit ratione quod assumenda sit",
   },
   {
     id: 4,
     avatar: AVTR4,
-    name: "mouhib",
+    name: "Mouhib",
     review:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos sapiente voluptatum maxime a atque quae quia optio eos modi nobis ducimus in unde natus cupiditate fugit ratione quod assumenda sit",
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos sapiente voluptatum maxime a atque quae quia optio eos modi nobis ducimus in unde natus cupiditate fugit ratione quod assumenda sitLorem ipsum dolor sit amet consectetur adipisicing elit. Quos sapiente voluptatum maxime a atque quae quia optio eos modi nobis ducimus in unde natus cupiditate fugit ratione quod assumenda sit",
   },
 ];
 const Testemonial = (props: Props) => {
