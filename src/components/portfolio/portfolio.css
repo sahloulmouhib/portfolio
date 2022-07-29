@@ -21,7 +21,7 @@
 
 .portfolio__item-image {
   flex: 2;
-  background-color: red;
+  /* background-color: red; */
   border-radius: 1.5rem;
   overflow: hidden;
 }

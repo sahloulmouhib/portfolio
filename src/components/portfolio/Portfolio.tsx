@@ -7,10 +7,10 @@ import IMG4 from "../../assets/portfolio4.jpg";
 import IMG5 from "../../assets/portfolio5.png";
 import IMG6 from "../../assets/portfolio6.jpg";
 
-import evertek from "../../assets/evertekMockup.png";
-import newsily from "../../assets/newsilyMockup.png";
-import mizi from "../../assets/miziMockup.png";
-import lockify from "../../assets/lockifyMockup.png";
+import evertek from "../../assets/portfolio/evertekMockup.png";
+import newsily from "../../assets/portfolio/newsilyMockup.png";
+import mizi from "../../assets/portfolio/miziMockup.png";
+import lockify from "../../assets/portfolio/lockifyMockup.png";
 
 // import Swiper core and required modules
 import { Navigation, Pagination, Scrollbar, A11y, Autoplay } from "swiper";
