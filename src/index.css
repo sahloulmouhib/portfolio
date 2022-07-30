@@ -27,9 +27,9 @@
   --color-bg: #fff;
   --color-bg-variant: rgba(189, 185, 185, 0.4);
   --color-primary: #020202;
-  --color-primary-variant: rgba(77, 181, 255, 0.4);
+  --color-primary-variant: #black;
   --color-white: #1f1f38;
-  --color-light: rgba(255, 255, 255, 0.6);
+  --color-light: black;
 
   --transition: all 400ms ease;
 
@@ -51,6 +51,7 @@ body {
   color: var(--color-white);
   line-height: 1.7;
   background-image: url(../src/assets/bg-texture.png);
+  transition: all 1s;
 }
 
 /*==================== General Styles =================*/
